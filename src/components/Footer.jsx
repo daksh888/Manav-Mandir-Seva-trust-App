@@ -3,7 +3,8 @@ const Footer = () => {
     <>
       <footer>
         <div className="footer-manav-mandir">
-            <h3>Manav Mandir</h3>
+        <h3>Manav Mandir</h3>
+            
           <p>(Registered Charitable Trust)</p>
           <p>
             16/11, E-Block, Udhayam Enclave, Dr. Natesan Salai, Ashok Nagar,

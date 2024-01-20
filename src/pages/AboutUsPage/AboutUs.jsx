@@ -1,12 +1,17 @@
-
+import HeadingAboutUs from "./HeadingAboutUs";
+import NavScrollExample from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import TextAboutUs from "./TextAboutUs";
 
 const AboutUs = () => {
-    return (
+    return(
         <>
-          
-          <h1>About Us</h1>
+        <NavScrollExample></NavScrollExample>
+        <HeadingAboutUs></HeadingAboutUs>
+        <TextAboutUs></TextAboutUs>
+        <Footer></Footer>
         </>
-      )
+    );
 
 }
 

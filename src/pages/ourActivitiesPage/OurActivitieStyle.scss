@@ -1,0 +1,46 @@
+.aboutus-page-heading-div{
+    display: flex;
+    background-color: rgb(118, 136, 106);
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-section-activitie-containar{
+
+    width: 95%;
+    height: auto;
+    // border: 2px solid black;
+    box-shadow: 10px 10px 5px rgb(237, 240, 240);
+    margin: 30px 40px;
+
+    padding: 10px 7%;
+    // margin: 5px 30px;
+}
+
+.text-heading-activitie{
+    text-align: left;
+    padding: 10px;
+    border-radius: 30px;
+    // background-color: rgb(118, 136, 106, 80%);
+    display: inline-block;
+}
+
+.text-body-img-activitie{
+    width: 100%;
+    height: auto;
+    // border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.text-body-activitie{
+    padding-top: 20px;
+    width: 50%;
+
+}
+
+.text-heading-activitie2{
+   padding-left: 51%;
+}

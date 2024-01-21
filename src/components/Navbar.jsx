@@ -19,7 +19,8 @@ function NavScrollExample() {
           >
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
-            <NavDropdown title="Activites" id="navbarScrollingDropdown">
+            <Nav.Link href="/our-activities">Activites</Nav.Link>
+            {/* <NavDropdown title="Activites" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Another action
@@ -28,7 +29,7 @@ function NavScrollExample() {
               <NavDropdown.Item href="#action5">
                 Something else here
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
             <Nav.Link href="#" disabled>
               Make Donation 
             </Nav.Link>

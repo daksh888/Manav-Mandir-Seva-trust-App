@@ -4,7 +4,7 @@ const Ouractivity = () => {
   return (
     <div className="ouractivity">
       <h2 className="ouractivity-heading">Our Activity</h2>
-      <div className="grid-container">
+      <div className="grid-container" id="ouractivitie">
         <Card style={{ width: "18rem" }}>
           <Card.Img className="ouractivity-img" variant="top" src="/a.png" />
           <Card.Body>

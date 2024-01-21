@@ -16,15 +16,15 @@ const Volunteer = () => {
 
         <div className="upper-div">
             <Row>
-                <Col  ><Image className="upper-div-img" src="/c.png" fluid />;
-                </Col >
-                <Col className="upper-div-text">
+                {/* <Col  ><Image className="upper-div-img" src="/c.png" fluid />;
+                </Col > */}
+                {/* <Col className="upper-div-text">
                 <Row><h3>Join our community</h3></Row>
                 
                 <Row><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias, est inventore porro accusamus aut exercitationem unde reiciendis optio numquam debitis necessitatibus illo quasi laborum? Quas neque commodi hic recusandae.</p></Row>
                 <Row className="upper-div-text-button"><Button variant="success">Beacome a Volunteer</Button></Row>
                 <Row className="upper-div-text-button"><Button variant="success">Make a Donation</Button></Row>
-                </Col >
+                </Col > */}
             </Row>
         </div>
       </div>

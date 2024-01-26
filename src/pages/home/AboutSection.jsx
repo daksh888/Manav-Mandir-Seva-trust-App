@@ -1,8 +1,4 @@
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
-import Button from "react-bootstrap/Button";
+
 
 function AboutSection() {
   return (
@@ -12,24 +8,17 @@ function AboutSection() {
       </div>
       <div className="about-section-text-img-container">
         <div className="about-section-img">
-          <img src="/2.png" alt="img" />
+          <img src="/sandesh.png" alt="img" />
         </div>
 
         <div className="about-section-row-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-          blanditiis cupiditate rerum laboriosam repellat eveniet neque sint
-          quod ducimus dolor eos! Iure eligendi velit quidem expedita nesciunt
-          reprehenderit vitae suscipit, dicta cumque nostrum modi error laborum
-          qui provident molestiae minus perferendis, voluptatibus et rem
-          aspernatur architecto. Ducimus esse ipsum iste.Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Molestias, blanditiis cupiditate
-          rerum laboriosam repellat eveniet neque sint quod ducimus dolor eos!
-          Iure eligendi velit quidem expedita nesciunt reprehenderit vitae
-          suscipit, dicta cumque nostrum modi error laborum qui provident
-          molestiae minus perferendis, voluptatibus et rem aspernatur
-          architecto. Ducimus esse ipsum iste
+        Subject to the convenience of the time, a small group at Vachraj Hotel next to Ahmedabad-Santhal Circle used to bathe, feed, cut Nakh-wal etc. such disinherited Prabhuji on the roads, do patapindi and deliver it to other institutions. After getting the cooperative land of Bagodara village, eight friends came together to help such destitute, Bhumipujan for the establishment of Mangal Mandir Seva Parivar for the mental, disabled, victims, service of Prabhuji was done on 15-11-2015.Since the above service was during Prahuti Khand time, the Ashram with facilities was established for such Prabhuji to get eternal bread and shelter. Done on 15-05-2016.Initially the service was started at the cost of the trustees of the institution, then the donations of clothes, food, medicine and other essentials were received from small and large donors in the public society, inspired by the transparent administration and service spirit of the institution
+
+          {/* <button className="read-more-button">Read More</button> */}
         </div>
+        
       </div>
+    
     </div>
     // <Container className='about-section-container'>
     //   <Row className='about-section-row'>

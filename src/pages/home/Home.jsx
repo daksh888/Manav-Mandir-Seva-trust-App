@@ -1,4 +1,5 @@
 import Footer from "../../components/Footer";
+// import NavScrollExample from "../../components/Navbar";  
 import AboutSection from "./AboutSection";
 import Volunteer from "./Volunteer";
 import IndividualIntervalsExample from "./crousel";
@@ -9,7 +10,7 @@ const Home = () => {
   
     return (
       <>
-        
+       
         <IndividualIntervalsExample></IndividualIntervalsExample>
         <AboutSection></AboutSection>
         <Volunteer></Volunteer>

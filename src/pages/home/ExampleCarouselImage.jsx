@@ -1,12 +1,14 @@
 // components/ExampleCarouselImage.jsx
+
+// components/ExampleCarouselImage.jsx
+
 import React from 'react';
 
-const ExampleCarouselImage = ({ text }) => {
+const ExampleCarouselImage = ({ text, imageSrc }) => {
   return (
     <div>
       <img
-        // src={`src/assests/b.png?text=${text}`}
-        src="/b.png"
+        src={imageSrc}
         alt={`Slide: ${text}`}
         style={{ width: '100%', height: '95vh' }}
       />
@@ -15,3 +17,10 @@ const ExampleCarouselImage = ({ text }) => {
 };
 
 export default ExampleCarouselImage;
+
+
+
+
+
+
+

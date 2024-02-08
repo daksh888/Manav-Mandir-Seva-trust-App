@@ -105,14 +105,13 @@
 .grid-container{
     display: flex;
     justify-content: space-between;
-    
     padding: 20px 60px;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    gap: 20px;
-    
-    
-    
+    gap: 20px;   
+}
+.ouractivity-card{
+cursor: pointer;
 }
 .ouractivity-img{
     height: 100%;

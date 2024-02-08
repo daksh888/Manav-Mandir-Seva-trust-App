@@ -1,12 +1,23 @@
 import Card from "react-bootstrap/Card";
+import { useNavigate } from "react-router-dom";
+
 
 const Ouractivity = () => {
+  const navigate = useNavigate()
+  function handlenavigate(){
+    
+    navigate('/our-activities')
+    
+
+  }
+
+
   return (
     <div className="ouractivity">
       <h2 className="ouractivity-heading">Our Activity</h2>
       <div className="grid-container" id="ouractivitie">
-        <Card style={{ width: "18rem" }}>
-          <Card.Img className="ouractivity-img" variant="top" src="/a.png" />
+        <Card style={{ width: "18rem" }} onClick={handlenavigate} className="ouractivity-card">
+          <Card.Img className="ouractivity-img" variant="top" src="/a.png"  />
           <Card.Body>
             <Card.Title>Services performed in the institution</Card.Title>
             {/* <Card.Text>
@@ -15,7 +26,7 @@ const Ouractivity = () => {
             
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem"}}>
+        <Card style={{ width: "18rem"}} onClick={handlenavigate} className="ouractivity-card">
           <Card.Img className="ouractivity-img" variant="top" src="/mahanubha2.png" />
           <Card.Body>
             <Card.Title>Political dignitaries visit the institute</Card.Title>
@@ -25,7 +36,7 @@ const Ouractivity = () => {
             
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "18rem" }} onClick={handlenavigate} className="ouractivity-card">
           <Card.Img className="ouractivity-img" variant="top" src="/seva4.png" />
           <Card.Body>
             <Card.Title>Reunion with family through institution</Card.Title>
@@ -36,7 +47,7 @@ const Ouractivity = () => {
             
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "18rem" }} onClick={handlenavigate} className="ouractivity-card">
           <Card.Img className="ouractivity-img" variant="top" src="/aabhar.png" />
           <Card.Body>
             <Card.Title>An expression of thanks</Card.Title>

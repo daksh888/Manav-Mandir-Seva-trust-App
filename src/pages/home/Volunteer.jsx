@@ -10,7 +10,7 @@ const Volunteer = () => {
       <div className="volunteer-wrapper">
         <Image
           className="volunteer-back-img"
-          src="/d.png"
+          src="/c.png"
           fluid
         />
 

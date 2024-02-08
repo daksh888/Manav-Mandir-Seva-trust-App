@@ -58,7 +58,7 @@ const TextSectionOurActivities = () => {
 
         <div className="text-body-img-activitie">
           <div className="text-img-activitie">
-            <img src="/a.png " alt="img" />
+            <img className="forimg" src="/kudarati.png " alt="img" />
           </div>
           <div className="text-body-activitie">
             <ul>
@@ -98,7 +98,7 @@ const TextSectionOurActivities = () => {
             </ul>
           </div>
           <div className="text-img-activitie">
-            <img src="/a.png " alt="img" />
+            <img src="/seva3.png " className="seva3" alt="img" />
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@ const TextSectionOurActivities = () => {
 
         <div className="text-body-img-activitie">
           <div className="text-img-activitie">
-            <img src="/a.png " alt="img" />
+            <img src="/aabhar.png " alt="img" />
           </div>
           <div className="text-body-activitie">
             <ul>
@@ -141,7 +141,7 @@ const TextSectionOurActivities = () => {
             </ul>
           </div>
           <div className="text-img-activitie">
-            <img src="/a.png " alt="img" />
+            <img src="/mahanubha2.png " alt="img" />
           </div>
         </div>
       </div>
@@ -152,7 +152,7 @@ const TextSectionOurActivities = () => {
 
         <div className="text-body-img-activitie">
           <div className="text-img-activitie">
-            <img src="/a.png " alt="img" />
+            <img src="/seva2.png " className="seva2" alt="img" />
           </div>
           <div className="text-body-activitie">
             <ul>

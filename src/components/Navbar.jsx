@@ -30,7 +30,7 @@ function NavScrollExample() {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown> */}
-            <Nav.Link href="#" disabled>
+            <Nav.Link href="/make-donation" >
               Make Donation 
             </Nav.Link>
           </Nav>

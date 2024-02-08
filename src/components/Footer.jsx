@@ -27,7 +27,7 @@ const Footer = () => {
             <h3>Others</h3>
             <p><a href="/Brochur_Gujrati.pdf" target=" blank">Download</a></p>
             <p>Contact Us</p>
-            <p>Donate Now</p>
+            <p><a href="/make-donation">Donate Now</a></p>
             <p>Careers</p>
         </div>
 

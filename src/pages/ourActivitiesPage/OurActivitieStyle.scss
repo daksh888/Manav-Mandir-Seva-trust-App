@@ -38,6 +38,16 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.seva3{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.seva2{
+    height: 100%;
+    // width: 100%;
+}
+
 .text-body-activitie{
     padding-top: 20px;
     width: 50%;
@@ -48,6 +58,9 @@
    padding-left: 51%;
 }
 
+.forimg{
+    width: 100%;
+}
 
 
 @media (max-width: 900px){

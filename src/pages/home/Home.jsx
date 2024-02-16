@@ -3,7 +3,7 @@ import Footer from "../../components/Footer";
 import AboutSection from "./AboutSection";
 import Volunteer from "./Volunteer";
 import IndividualIntervalsExample from "./crousel";
-import Ouractivity from "./ouracitivity";
+import Ouractivityhome from "./ouracitivity";
 import "./styel.scss";
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
         <IndividualIntervalsExample></IndividualIntervalsExample>
         <AboutSection></AboutSection>
         <Volunteer></Volunteer>
-        <Ouractivity></Ouractivity>
+        <Ouractivityhome></Ouractivityhome>
         <Footer></Footer>
 
       </>

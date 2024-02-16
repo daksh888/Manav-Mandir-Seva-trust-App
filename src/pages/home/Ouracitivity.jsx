@@ -2,7 +2,7 @@ import Card from "react-bootstrap/Card";
 import { useNavigate } from "react-router-dom";
 
 
-const Ouractivity = () => {
+const Ouractivityhome = () => {
   const navigate = useNavigate()
   function handlenavigate(){
     
@@ -63,4 +63,4 @@ const Ouractivity = () => {
   );
 };
 
-export default Ouractivity;
+export default Ouractivityhome;

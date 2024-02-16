@@ -3,7 +3,7 @@ import Footer from "../../components/Footer";
 import AboutSection from "./AboutSection";
 import Volunteer from "./Volunteer";
 import IndividualIntervalsExample from "./crousel";
-import Ouractivityhome from "./ouracitivity";
+import Ouractivityhome from "./Ouracitivityhome";
 import "./styel.scss";
 
 const Home = () => {

@@ -1,0 +1,10 @@
+{
+    "routes": [
+      { "handle": "filesystem" },
+      {
+        "src": "/(about|our-activities|make-donation)?",
+        "dest": "/index.html"
+      }
+    ]
+  }
+  
